@@ -12,6 +12,7 @@
 		F7503D402C550D5600F022AB /* lost.json in Resources */ = {isa = PBXBuildFile; fileRef = F7503D3F2C550D5600F022AB /* lost.json */; };
 		F75665112C62BB920038288E /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75665102C62BB920038288E /* AudioManager.swift */; };
 		F75665132C62C4E20038288E /* yeling.wav in Resources */ = {isa = PBXBuildFile; fileRef = F75665122C62C4E20038288E /* yeling.wav */; };
+		F76F46AD2C6AA6550070885E /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76F46AC2C6AA6550070885E /* OnboardingView.swift */; };
 		F7D0F8492C5414FB00BE3800 /* BrainSafari.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D0F8482C5414FB00BE3800 /* BrainSafari.swift */; };
 		F7D0F84B2C5414FB00BE3800 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D0F84A2C5414FB00BE3800 /* ContentView.swift */; };
 		F7D0F84D2C5414FD00BE3800 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7D0F84C2C5414FD00BE3800 /* Assets.xcassets */; };
@@ -28,6 +29,7 @@
 		F7503D3F2C550D5600F022AB /* lost.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = lost.json; sourceTree = "<group>"; };
 		F75665102C62BB920038288E /* AudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
 		F75665122C62C4E20038288E /* yeling.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = yeling.wav; sourceTree = "<group>"; };
+		F76F46AC2C6AA6550070885E /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		F7D0F8452C5414FB00BE3800 /* AnimalLogicNew.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimalLogicNew.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7D0F8482C5414FB00BE3800 /* BrainSafari.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrainSafari.swift; sourceTree = "<group>"; };
 		F7D0F84A2C5414FB00BE3800 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 				F7D0F8582C5418DD00BE3800 /* GameRulesPopup.swift */,
 				F7D8D4B82C56A5560058DB3A /* CustomStartButtonView.swift */,
 				F7503D3B2C550CB100F022AB /* LottieView.swift */,
+				F76F46AC2C6AA6550070885E /* OnboardingView.swift */,
 				F75665102C62BB920038288E /* AudioManager.swift */,
 				F7D0F84C2C5414FD00BE3800 /* Assets.xcassets */,
 				F7DF8B032C59583600BE3F24 /* wining.json */,
@@ -178,6 +181,7 @@
 				F7D8D4B92C56A5560058DB3A /* CustomStartButtonView.swift in Sources */,
 				F7503D3C2C550CB100F022AB /* LottieView.swift in Sources */,
 				F75665112C62BB920038288E /* AudioManager.swift in Sources */,
+				F76F46AD2C6AA6550070885E /* OnboardingView.swift in Sources */,
 				F7D0F8592C5418DD00BE3800 /* GameRulesPopup.swift in Sources */,
 				F7D0F84B2C5414FB00BE3800 /* ContentView.swift in Sources */,
 				F7D0F8572C54187600BE3800 /* model.swift in Sources */,
@@ -314,7 +318,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1.2;
+				CURRENT_PROJECT_VERSION = 1.3;
 				DEVELOPMENT_ASSET_PATHS = "\"AnimalLogicNew/Preview Content\"";
 				DEVELOPMENT_TEAM = 345BZLKWW9;
 				ENABLE_PREVIEWS = YES;
@@ -331,7 +335,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.2;
+				MARKETING_VERSION = 1.3;
 				PRODUCT_BUNDLE_IDENTIFIER = com.RemontadaTechnology.AnimalLogicNew;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -346,7 +350,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1.2;
+				CURRENT_PROJECT_VERSION = 1.3;
 				DEVELOPMENT_ASSET_PATHS = "\"AnimalLogicNew/Preview Content\"";
 				DEVELOPMENT_TEAM = 345BZLKWW9;
 				ENABLE_PREVIEWS = YES;
@@ -363,7 +367,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.2;
+				MARKETING_VERSION = 1.3;
 				PRODUCT_BUNDLE_IDENTIFIER = com.RemontadaTechnology.AnimalLogicNew;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;

@@ -9,23 +9,32 @@ import SwiftUI
 
 struct GameRulesPopup: View {
     @Binding var showingRules: Bool
-    
+
     var body: some View {
         VStack {
             Text("Game Rules")
                 .font(.headline)
                 .foregroundColor(.black)
-                .textFieldStyle(.plain)
                 .padding()
-            
+
             ScrollView {
-                Text("1. The objective is to remove all the animals.\n\n2. Only animals that are the same shape or color as the previously removed animals are allowed to exit.\n\n3. No animal can jump over another animal to exit, so the last animal in each row must be of the same color or shape.\n\n4. You can shuffle the animals")
-                    .font(.subheadline)
-                    .foregroundColor(.black)
-                    .textFieldStyle(.automatic)
-                    .padding()
+                Text("""
+                1. The goal is to remove all the animals from the grid.
+                
+                2. You can only remove an animal if it's the same type or color as the last removed animal.
+                
+                3. Animals can only be removed from the bottom row of the grid.
+                
+                4. When you remove an animal, the animals above it will move down to fill the gap.
+                5. The game ends when no more animals can be removed.
+                
+                6. You can shuffle the animals if you're stuck, but try to use it wisely!
+                """)
+                .font(.subheadline)
+                .foregroundColor(.black)
+                .padding()
             }
-            
+
             Button(action: {
                 showingRules = false
             }) {
@@ -47,7 +56,7 @@ struct GameRulesPopup: View {
             Button(action: {
                 showingRules = false
             }) {
-                Color.clear 
+                Color.clear
             }
             .edgesIgnoringSafeArea(.all)
         )
